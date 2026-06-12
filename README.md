@@ -1,7 +1,7 @@
 # Netflix Prize Recommender System
 
 ## Overview
-This repository contains our competition submission for the Netflix Prize recommendation challenge. We developed a robust **Hybrid Ensemble Model** designed to tackle data sparsity and the cold start problem, blending advanced latent factor derivation with robust neighborhood mapping. The application also provides an interactive frontend to visualize dataset statistics, model evaluation metrics, cold start experiences, and real-time recommendations.
+This repository contains our competition submission for the Netflix Prize recommendation challenge. We developed a robust **Matrix Factorization Recommendation System** designed to tackle data sparsity and the cold start problem, blending advanced latent factor derivation with robust neighborhood mapping. The application also provides an interactive frontend to visualize dataset statistics, model evaluation metrics, cold start experiences, and real-time recommendations.
 
 ## Dataset
 The dataset utilized is the **Netflix Prize Dataset**, consisting of:
@@ -70,7 +70,7 @@ The evaluation pipeline relies on the test split (approx. 20% of data) and compu
 
 ### Example Evaluation Metrics
 - **RMSE:** Generated through evaluation pipeline
-- **MAP@10:** Generated through evaluation pipeline
+- **MAP@10:** Generated through evaluation pipeline 
 
 ### To reproduce:
 ```bash
