@@ -83,3 +83,4 @@ npm run evaluate
 - **Deep Learning Integration (Neural CF):** Introduce deep neural networks to capture non-linear user-item interactions.
 - **Content-Based Filtering:** Ingest movie metadata (synopsis, cast, directors) to improve cold-start routing prior to user ratings.
 - **Real-Time Data Streaming:** Transition from batch-trained pipelines to incremental online stochastic gradient descent (SGD) for updating model weights in real-time.
+- - Hyperparameter tuning to further improve recommendation accuracy and ranking quality.
